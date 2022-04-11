@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+.carousel-item {
+    margin: 0 auto;
+    max-width: 450px;
+    max-height: 400px;
+    display: none;
+}
+
+.carousel-item-visible{
+    display: block;
+}
+
+.carousel-item img {
+    width: 70%;
+    margin-top: 30px;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 25px;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+#carousel-prev {
+    margin-left: 30%;
+}
+
+#carousel-next {
+    margin-right: 30%;
+}
